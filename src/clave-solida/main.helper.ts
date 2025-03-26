@@ -24,8 +24,8 @@ export const tieneNumeros = (clave: string): ValidacionClave => {
 export const tieneCaracteresEspeciales = (clave: string): ValidacionClave => {
   const especiales = ["!", "@", "#", "$", "%", "&", "*"];
   for (let i = 0; i < clave.length; i++) {
-    const char = clave[i];
-    if (especiales.indexOf(char) !== -1) {
+    const caracter = clave[i];
+    if (especiales.indexOf(caracter) !== -1) {
       return { esValida: true };
     }
   }
