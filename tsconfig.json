@@ -17,8 +17,8 @@
   },
   "include": [
     "src",
-    "lab9.2/cambio/index.ts",
-    "lab9.2/master-card.helpers.spec.ts",
-    "lab9.2/master-card.helpers.ts"
+    "apuntes/cambio/index.ts",
+    "apuntes/master-card.helpers.spec.ts",
+    "apuntes/master-card.helpers.ts"
   ]
 }
